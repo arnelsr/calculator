@@ -1,0 +1,8 @@
+.calculator {
+    height: 400px;
+    width: 200px;
+    
+}
+input {
+    direction:rtl;
+}
