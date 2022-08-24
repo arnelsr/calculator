@@ -106,7 +106,10 @@ function display(e) {
 
              
     }
-
+    //if previous operator =, reset
+    if (operator === '=') {
+        previousDisplay='';
+    }
     input.value = previousDisplay + e.target.textContent;
     previousDisplay=input.value;
 }
